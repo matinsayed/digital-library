@@ -1,0 +1,28 @@
+.pricetext {
+	font-weight:bold;
+	font-size:1.4em;
+}
+
+.footer-bottom {
+	margin-top:10px;
+	  background: #EDEFF1;
+		height: auto;
+		position: relative;
+		width: 100%;
+		border-bottom: 1px solid #CCCCCC;
+		border-top: 1px solid #DDDDDD;
+}
+.copyright {
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+
+}

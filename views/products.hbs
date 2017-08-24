@@ -1,0 +1,26 @@
+<h3>Products</h3>
+<div class="container-fluid">
+  <div class="row">
+    {{# each result}}
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="/images/products/{{imagepath}}" alt="{{name}}" width="150px"/>
+        <div class="caption">
+          <h3>{{name}}</h3>
+          <div>{{description}}</div>
+          <hr/>
+          <div class="pricetext">$ {{unitprice}} </div>
+          <a href="/add-to-cart/{{id}}" class="btn btn-primary" role="button" title="hurryy!!! :)" data-toggle="tooltip">add to cart</a>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
